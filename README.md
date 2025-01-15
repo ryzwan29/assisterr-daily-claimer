@@ -20,8 +20,10 @@ Autoclaim Daily Points for assisterr.ai support multiple accounts and using prox
 ## Credentials setup
 
 ### Getting Credentials
-1. Get your Solana Wallet privatekey, if you using [Phantom Wallet](https://www.youtube.com/watch?v=xS5VllDRyMc) and if you using [Soflare](https://www.youtube.com/watch?v=HYNKAhQjwLU).
-2. Get account Tokens:
+1. Get your Solana Wallet privatekey:
+   - Use [Phantom Wallet](https://www.youtube.com/watch?v=xS5VllDRyMc)
+   - Use [Soflare](https://www.youtube.com/watch?v=HYNKAhQjwLU). Then convert your Soflare privatekey using [this script](https://gist.github.com/im-hanzou/bb5569806875168b47458a56334bbe60).
+3. Get account Tokens:
    - Open [https://build.assisterr.ai](https://build.assisterr.ai/?ref=677ac8bd0fed0714db3d6dc7) and make sure you already logged in and complete tasks. 
    - Open your browser's Developer Tools by press F12 or press Ctrl+Shift+I and navigate to the Console tab.
    - Run the following commands:
