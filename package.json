@@ -1,0 +1,35 @@
+{
+  "name": "assisterr-daily-claimer",
+  "version": "1.0.0",
+  "description": "Autoclaim Daily Points for assisterr.ai",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/im-hanzou/assisterr-daily-claimer.git"
+  },
+  "author": "IM-Hanzou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/im-hanzou/assisterr-daily-claimer/issues"
+  },
+  "homepage": "https://github.com/im-hanzou/assisterr-daily-claimer#readme",
+  "keywords": [
+    "autclaim",
+    "automate",
+    "bot",
+    "nodejs",
+    "assisterr",
+    "assister-ai"
+  ],
+  "dependencies": {
+    "@solana/web3.js": "^1.98.0",
+    "bs58": "^6.0.0",
+    "chalk": "^5.4.1",
+    "https-proxy-agent": "^7.0.6",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {}
+}
