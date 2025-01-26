@@ -1,13 +1,11 @@
 # Assisterr Daily Claimer
 Autoclaim Daily Points for assisterr.ai support multiple accounts and using proxies.
 ## Tools and components required
-1. Register: [https://build.assisterr.ai](https://build.assisterr.ai/?ref=677ac8bd0fed0714db3d6dc7) (Connect Twitter, Discord and complete tasks)
+1. [Register AssisterrAI Here](https://build.assisterr.ai/?ref=6664a1fbb7cbb265d7f66bba) (✅Connect Twitter, Discord and complete tasks)
 2. Proxies (OPTIONAL)
 3. VPS or RDP (OPTIONAL)
-4. NodeJS. How to install:
-   - Linux users can go [here](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04)
-   - Windows users can go [here](https://www.youtube.com/watch?v=La6kH33-AVM&ab_channel=TheCodeCity)
-   - Termux users can go [here](https://www.youtube.com/watch?v=5NceYSU4uFI&ab_channel=VectorM%3A)
+4. NodeJS. 
+
 ### Buy Proxies
 - Free Proxies Static Residental: 
    - [WebShare](https://www.webshare.io/?referral_code=p7k7whpdu2jg)
@@ -24,8 +22,8 @@ Autoclaim Daily Points for assisterr.ai support multiple accounts and using prox
    - Use [Phantom Wallet](https://www.youtube.com/watch?v=xS5VllDRyMc)
    - Use [Soflare](https://www.youtube.com/watch?v=HYNKAhQjwLU). Then convert your Soflare privatekey using [this script](https://gist.github.com/im-hanzou/bb5569806875168b47458a56334bbe60).
 3. Get account Tokens:
-   - Open [https://build.assisterr.ai](https://build.assisterr.ai/?ref=677ac8bd0fed0714db3d6dc7) and make sure you already logged in and complete tasks. 
-   - Open your browser's Developer Tools by press F12 or press Ctrl+Shift+I and navigate to the Console tab.
+   - Open [https://build.assisterr.ai](https://build.assisterr.ai/?ref=6664a1fbb7cbb265d7f66bba) and make sure you already logged in and complete tasks. 
+   - Inspect your browser and navigate to the `Console` tab.
    - Run the following commands:
   ```bash
 function getCookieValue(cookieName) {
@@ -55,17 +53,9 @@ http://user:pass@127.0.0.1:8080
 ```
 >Only http proxies supported for now
 ## Modules Installation
-- Download script [Manually](https://github.com/im-hanzou/assisterr-daily-claimer/archive/refs/heads/main.zip) or use git:
+- Run this script quick installation
 ```bash
-git clone https://github.com/im-hanzou/assisterr-daily-claimer
-```
-- Open terminal and make sure you already in bot folder:
-```bash
-cd assisterr-daily-claimer
-```
-- Install modules:
-```bash
-npm install
+source <(curl -s https://raw.githubusercontent.com/ryzwan29/assisterr-daily-claimer/main/quick-installation.sh)
 ```
 - Run bot:
 ```bash
